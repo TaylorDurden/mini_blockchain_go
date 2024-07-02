@@ -12,6 +12,7 @@ var (
 	maxNonce = math.MaxInt64
 )
 
+// define the POW difficulty
 const targetBits = 24
 
 type ProofOfWork struct {
